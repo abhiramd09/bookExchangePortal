@@ -1,0 +1,42 @@
+{
+   "1":[
+      {
+         "title": "Ignited minds",
+         "publication": "Penguin Books",
+         "Author": "APJ Abdul Kalam",
+         "description": "deals with innovation and foresight in the Dr APJ Abdul Kalam's perspective",
+         "img": "./images/Ignited minds.jpg",
+         "price": "390"
+      },
+      {
+         "title": "Bearin Losses? That's BULL!",
+         "publication": "Notion press",
+         "Author": "Akhil Vajjhala",
+         "description": "guide to understanding stock market",
+         "img": "./images/Bearin Losses That's BULL.jpg",
+         "price": "310"
+      }
+   ],
+
+   "2":[
+      {
+         "title": "Throne of Glass",
+         "publication": "Bloomsbury Publishing",
+         "Author": "Sarah J. Maas",
+         "description": "In a land without magic, where the king rules with an iron hand, an assassin is summoned to the castle. She comes not to kill the king, but to win her freedom. If she defeats twenty-three killers, thieves, and warriors in a competition, she is released from prison to serve as the king's champion. Her name is Celaena Sardothien.",
+         "img": "./images/Throne of Glass.jpg",
+         "price": "810"
+      }
+   ],
+
+   "3":[
+      {
+         "title": "Attack on Titan",
+         "publication": "Kodansha (USA)",
+         "Author": "Hajime Isayama",
+         "description": "The Survey Corps develop a risky gambit – have Eren(Titan) attempt to repair Wall Rose, reclaiming human territory from the monsters. But Titan-Eren’s self-control is far from perfect, and when he goes on a rampage, not even Armin can stop him! With the survival of humanity on his massive shoulders, will Eren be able to return to his senses, or will he lose himself forever?",
+         "img": "./images/Shingeki no Kyojin.jpg",
+         "price": "470"
+      }
+   ]
+}

@@ -1,0 +1,220 @@
+:root{
+   --background-dark: #2d3548;
+   --text-light: rgba(255,255,255,0.6);
+   --text-lighter: rgba(255,255,255,0.9);
+   --spacing-s: 8px;
+   --spacing-m: 16px;
+   --spacing-l: 24px;
+   --spacing-xl: 32px;
+   --spacing-xxl: 64px;
+   --width-container: 1200px;
+ }
+ 
+ *{
+   border: 0;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
+ html{
+   height: 100%;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
+ }
+
+body{
+   background: url('/images/portalBG1.jpg');
+   /* background: #0F2027;   */
+   margin: 0;
+   padding: 0;
+   border: 0;
+   height: 100%;
+}
+
+
+.outer-container{
+   margin: 0;
+   border: none;
+   padding: 25px 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: auto;
+   width: auto;
+}
+
+.outer-container .books-container{
+   width: 90%;
+   min-height: 80%;
+   padding: 10px;
+   border-radius: 16px;
+   /* background: #e0ffff;  */
+   -webkit-backdrop-filter: blur(15px);
+   backdrop-filter: blur(15px);
+   /* background: -webkit-linear-gradient(-45deg, #A5CC82, #00467F); 
+   background: linear-gradient(-45deg, #A5CC82, #00467F); */
+   display: inline-block;
+
+}
+
+.books-card{
+   width: 300px;
+   height: 550px;
+   margin: 3px;
+   padding-top: 2px;
+   border-radius: 12px;
+   /* background-color: aliceblue; */
+   background-image: radial-gradient(#9faffd, #cfdfff);
+   display: inline-block;
+   transition: 0.2s ease-in-out;
+}
+
+.book-availability{
+   background-color: yellow;
+   width: 40%;
+   padding: 0;
+   margin: 0;
+   margin-left: 60%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 28px;
+   border-top-left-radius: 2px;
+   border-top-right-radius: 12px;
+   border-bottom-left-radius: 2px;
+   font-size: 2px;
+}
+
+.img-box{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1px;
+   margin: 0;
+}
+
+.img-box img{
+   width: 98%;
+   max-height: 40%;
+}
+
+.book-card-details{
+   text-align: center;
+   padding: 0 8px;
+}
+
+.book-card-details p{
+   text-align: justify;
+   font-size: 14px;
+}
+
+.books-card-btn{
+   text-decoration: none;
+   border: 2px solid #435643;
+   font-size: 18px;
+   padding: 3px;
+   color: blanchedalmond;
+   background-color: blue;
+   transition: 0.2s ease-in-out;
+}
+
+.books-card:hover{
+   transform: scale(0.96);
+   cursor: pointer;
+}
+
+.books-card:hover .books-card-btn:hover{
+   border: none;
+   color: aliceblue;
+   opacity: 0.8;
+}
+
+/* .hero-section{
+   align-items: flex-start;
+   background-image: linear-gradient(15deg, #0f4667 0%, #2a6973 150%);
+   display: flex;
+   min-height: 100%;
+   justify-content: center;
+   padding: var(--spacing-xxl) var(--spacing-l);
+ }
+ 
+ .card-grid{
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   grid-column-gap: var(--spacing-l);
+   grid-row-gap: var(--spacing-l);
+   max-width: var(--width-container);
+   width: 100%;
+ }
+ 
+ @media(min-width: 540px){
+   .card-grid{
+     grid-template-columns: repeat(2, 1fr); 
+   }
+ }
+ 
+ @media(min-width: 960px){
+   .card-grid{
+     grid-template-columns: repeat(4, 1fr); 
+   }
+ }
+ 
+ .card{
+   list-style: none;
+   position: relative;
+ }
+ 
+ .card:before{
+   content: '';
+   display: block;
+   padding-bottom: 150%;
+   width: 100%;
+ }
+ 
+ .card__background{
+   background-size: cover;
+   background-position: center;
+   border-radius: var(--spacing-l);
+   bottom: 0;
+   filter: brightness(0.75) saturate(1.2) contrast(0.85);
+   left: 0;
+   position: absolute;
+   right: 0;
+   top: 0;
+   transform-origin: center;
+   trsnsform: scale(1) translateZ(0);
+   transition: 
+     filter 200ms linear,
+     transform 200ms linear;
+ }
+ 
+ .card:hover .card__background{
+   transform: scale(1.05) translateZ(0);
+ }
+ 
+ .card-grid:hover > .card:not(:hover) .card__background{
+   filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
+ }
+ 
+ .card__content{
+   left: 0;
+   padding: var(--spacing-l);
+   position: absolute;
+   top: 0;
+ }
+ 
+ .card__category{
+   color: var(--text-light);
+   font-size: 0.9rem;
+   margin-bottom: var(--spacing-s);
+   text-transform: uppercase;
+ }
+ 
+ .card__heading{
+   color: var(--text-lighter);
+   font-size: 1.9rem;
+   text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+   line-height: 1.4;
+   word-spacing: 100vw;
+ } */

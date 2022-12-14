@@ -1,0 +1,4 @@
+E-Wallet:   https://youtu.be/lkWdXDfi_xU
+
+Make an E-Wallet, and create it's UI
+it's easier done with MongoDB than SQL or Oracle (get a confirmation for that matter)

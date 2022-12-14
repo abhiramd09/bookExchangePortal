@@ -1,0 +1,21 @@
+.batchbooks{
+   display: flex;
+   width: 100%;
+   /* align-items: center; */
+   justify-content: center;
+}
+
+.batchbooks .btn-group{
+   height: 42px;
+}
+.batchbooks .btn-group .btn{
+   transition: 0.2s ease;
+   background: #101101;
+   opacity: 0.9;
+   border: #000;
+}
+.batchbooks .btn-group .btn:hover{
+   border: #333;
+   background: #424243;
+   opacity: 1;
+}
